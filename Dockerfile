@@ -1,4 +1,4 @@
-FROM dockerfile/ubuntu
+FROM ubuntu:14.04
 MAINTAINER drakeu <dstosor@gmail.com>
 
 RUN apt-get update && apt-get install -y \
